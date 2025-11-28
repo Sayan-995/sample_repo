@@ -1,6 +1,6 @@
 import { validateEmail, validatePassword } from '../utils/validators';
 import { sendWelcomeEmail } from '../utils/email';
-
+//changes form code canva clone
 export const registerUser = (email: string, pass: string) => {
   console.log('Registering user service...');
   
